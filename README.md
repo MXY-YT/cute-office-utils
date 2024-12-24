@@ -26,7 +26,7 @@ github 地址 [https://github.com/MXY-YT/cute-office-utils](https://github.com/M
 
 #### 1、多页面/指定页面转为图片 所需软件 [GraphicsMagick 安装指南](https://gitcode.com/gh_mirrors/pdf/pdf2image/blob/master/docs/gm-installation.md)
 
-###### Windows
+##### `Windows`
 
 - 下载 [Ghostscript 9.52](https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/tag/gs952)
 - 下载 [GraphicsMagick for Windows](http://ftp.icm.edu.pl/pub/unix/graphics/GraphicsMagick/windows/)
@@ -38,7 +38,7 @@ github 地址 [https://github.com/MXY-YT/cute-office-utils](https://github.com/M
 
 注意：当 Ghostscript 版本为 9.53 或更高时可能会出现错误。
 
-###### Linux (基于 Debian 的系统)
+#####  `Linux (基于 Debian 的系统)`
 
 ```linux
     sudo apt-get update
@@ -46,7 +46,7 @@ github 地址 [https://github.com/MXY-YT/cute-office-utils](https://github.com/M
     sudo apt-get install graphicsmagick
 ```
 
-###### MacOS
+##### `MacOS`
 
 ```mac
     brew update
@@ -55,7 +55,7 @@ github 地址 [https://github.com/MXY-YT/cute-office-utils](https://github.com/M
 
 #### 2、Office 转为 PDF 所需软件 [下载 LibreOffice](https://zh-cn.libreoffice.org/download/libreoffice/)
 
-###### 可参考文章 [ office 转 pdf ](https://blog.csdn.net/weixin_44434938/article/details/140871916)
+##### `可参考文章` [ office 转 pdf ](https://blog.csdn.net/weixin_44434938/article/details/140871916)
 
 ---
 
