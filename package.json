@@ -1,0 +1,41 @@
+{
+  "name": "cute-office-utils",
+  "version": "1.0.0",
+  "description": "一款轻量级的 Office 工具库，包括转化 WORD、PPT、EXCEL 转为 PDF，将 Office 指定页面 转为 图片",
+  "author": {
+    "name": "洛尘云天",
+    "email": "admin@cuteshamoye.cn",
+    "url": "https://gitee.com/luochen-yuntian"
+  },
+  "contributors": [
+    {
+      "name": "Salvia",
+      "email": "salvia@cuteshamoye.cn",
+      "url": "https://gitee.com/salviaany"
+    }
+  ],
+  "keywords": [
+    "WORD",
+    "PDF",
+    "PPT",
+    "EXCEL",
+    "图片",
+    "Office",
+    "转换"
+  ],
+  "homepage": "",
+  "bugs": {
+    "email": "admin@cuteshamoye.cn"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.10",
+    "typescript": "^5.5.3"
+  },
+  "license": "MIT"
+}
