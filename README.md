@@ -64,6 +64,7 @@ github 地址 [https://github.com/MXY-YT/cute-office-utils](https://github.com/M
 ### 1、Office 文件转 PDF
 
 ```typescript
+import { CuteConvert } from 'cute-office-utils/dist'; 
 const cuteConvert = new CuteConvert("D:\\**\\cute-office-utils\\test.pptx") // 文件完整路径
 cuteConvert.to_pdf().then(res => {
     console.log(res)
@@ -90,6 +91,7 @@ cuteConvert.to_pdf().then(res => {
 #### 完整参数示例
 
 ```typescript
+import { CuteConvert } from 'cute-office-utils/dist';
 const cuteConvert = new CuteConvert("D:\\**\\cute-office-utils\\test.pptx")
 cuteConvert.to_pdf({
     debug: true, // 调试模式 (打印到控制台)， 默认 true

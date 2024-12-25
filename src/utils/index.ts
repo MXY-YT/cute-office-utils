@@ -1,6 +1,7 @@
-import fs from "fs";
 import {exec} from "child_process";
-import iconv from "iconv-lite";
+
+import * as fs from "fs";
+import * as iconv from "iconv-lite";
 
 class Utils {
 

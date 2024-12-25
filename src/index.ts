@@ -1,6 +1,6 @@
-import os from "os";
-import path from "path";
-import fs from "fs";
+import * as os from "os";
+import * as path from "path";
+import * as fs from "fs";
 import Utils from "./utils";
 import ExecuteResult = Cute.Convert.ExecuteResult;
 import Result = Cute.Convert.Result;
@@ -8,7 +8,7 @@ import OfficeToImageOption = Cute.Convert.OfficeToImageOption;
 import OfficeToPDFOption = Cute.Convert.OfficeToPDFOption;
 
 
-class CuteConvert {
+export class CuteConvert {
     /**
      * Office 文件路径（绝对路径）
      */
